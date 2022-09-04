@@ -1,0 +1,9 @@
+contextSource: fc
+ossBucketName: ${myOssBucketName}
+vscode:
+  binaryDirectory: /opt/openvscode-server/bin
+  host: 127.0.0.1
+  port: 3000
+  dataDirectory: ~/.config/vscode-server
+workspace:
+  directory: /workspace

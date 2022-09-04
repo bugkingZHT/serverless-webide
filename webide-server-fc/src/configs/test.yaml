@@ -1,0 +1,9 @@
+contextSource: env
+ossBucketName: ${myOssBucketName}
+vscode:
+  binaryDirectory: /root/serverless-web-ide/start-serverless-webide/src/zip/vscode-server/bin
+  host: 127.0.0.1
+  port: 9527
+  dataDirectory: /webide/data
+workspace:
+  directory: /webide/workspace
