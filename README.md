@@ -2,7 +2,7 @@
 
 > 由自邮之翼（free4inno）团队开发的 Serverless VSCode webide
 
-#### 介绍 & 演示
+## 介绍 & 演示
 
 本项目基于 Serverless 架构实现了一款轻量化、多用户的 VSCode webide。充分利用了阿里云函数计算（FC）服务、对象存储（OSS）服务所提供的功能。整体采用 Java 与 Go 语言进行实现。该 webide 主要具有以下特点：
 
@@ -17,7 +17,7 @@
 
 【演示视频】
 
-同时，目前本项目已经在线上部署 demo 供各位评委体验：[webide.free4inno.com]()
+同时，目前本项目已经在线上部署 demo 供各位评委体验：[webide.free4inno.com](webide.free4inno.com)
 
 > 注意！为防止恶意过度使用 demo 资源，目前仅开放了 2 个测试账号用于体验，同时限制了单个用户最大激活状态工作区数量为 3
 >
@@ -29,7 +29,17 @@
 
 ## 应用详情
 
-#### 功能 & 使用流程
+### 目录说明
+
+```
+- serverless-webide
+	- webide-core 		# core 核心模块 (Java - SpringBoot)
+	- webide-server-fc 	# function 函数计算服务所用函数 (Go)
+	- webide-front      # front 前端模块
+    - README.md 
+```
+
+### 功能 & 使用流程
 
 本项目所提供的 webide主要具有以下功能：
 
@@ -50,7 +60,7 @@
 
 ## 技术架构
 
-#### 系统架构图
+### 系统架构图
 
 目前该系统整体的系统架构图如下：
 
@@ -62,7 +72,7 @@
 - 第三层为函数资源层，该层是利用阿里云函数计算（FC）服务所创建出的各个函数，由 webide-core 负责维护管理并调度给工作区使用。这些函数是基于官方 webide 函数示例改造而成的，主要作用是提供最底层的 VSCode webide 服务；
 - 最底层为持久化层，一方面通过 MySQL 持久化存储用户与工作区的基本信息，另一方面通过阿里云对象存储（OSS）服务所提供的 bucket 存储用户的 ide 配置、工作区代码。
 
-#### 技术细节
+### 技术细节
 
 - 多用户数据隔离
 
@@ -92,15 +102,6 @@
 
 <img src="static\image-20220904153618178.png" alt="image-20220904153618178" style="zoom:67%;" />
 
-#### 目录说明
-
-```
-- serverless-webide
-	- webide-core 		# core 核心模块 (Java - SpringBoot)
-	- webide-server-fc 	# function 函数计算服务所用函数 (Go)
-	- webide-front      # front 前端模块
-    - README.md 
-```
 
 
 
