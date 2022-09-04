@@ -15,15 +15,18 @@
 
 我们目前提供了一个演示视频，对本项目进行了展示：
 
-【演示视频】
+[自邮之翼-2022队WebIDE演示视频.mp4](https://www.aliyundrive.com/s/AhrdtXka6DG)
+（您也可以在项目根目录下找到该视频）
 
-同时，目前本项目已经在线上部署 demo 供各位评委体验：[webide.free4inno.com](http://webide.free4inno.com/)
+同时，目前本项目已经在线上部署 demo 供各位评委体验：
+
+[webide.free4inno.com](http://webide.free4inno.com/)
 
 > 注意！为防止恶意过度使用 demo 资源，目前仅开放了 2 个测试账号用于体验，同时限制了单个用户最大激活状态工作区数量为 3
 >
-> - 测试账号一：visitor1 / password1
+> - 测试账号一：demo-01 / abc123
 >
-> - 测试账号二：visitor2 / password2
+> - 测试账号二：visitor1 / password1
 
 具体的应用使用流程以及关于本项目的更多详细详细信息请参见下文“应用详情”与“系统架构”。
 
@@ -36,6 +39,7 @@
 	- webide-core 		# core 核心模块 (Java - SpringBoot)
 	- webide-server-fc 	# function 函数计算服务所用函数 (Go)
 	- webide-front      # front 前端模块
+	- 自邮之翼-2022队WebIDE演示视频.mp4
     - README.md 
 ```
 
