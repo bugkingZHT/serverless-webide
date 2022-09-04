@@ -15,12 +15,12 @@
 
 我们目前提供了一个演示视频，对本项目进行了展示：
 
-[自邮之翼-2022队WebIDE演示视频.mp4](https://www.aliyundrive.com/s/AhrdtXka6DG)
+**[自邮之翼-2022队WebIDE演示视频.mp4](https://www.aliyundrive.com/s/AhrdtXka6DG)**
 （您也可以在项目根目录下找到该视频）
 
 同时，目前本项目已经在线上部署 demo 供各位评委体验：
 
-[webide.free4inno.com](http://webide.free4inno.com/)
+**[webide.free4inno.com](http://webide.free4inno.com/)**
 
 > 注意！为防止恶意过度使用 demo 资源，目前仅开放了 2 个测试账号用于体验，同时限制了单个用户最大激活状态工作区数量为 3
 >
@@ -73,7 +73,9 @@
 - 最顶层为用户交互层 webide-front，负责前端页面展示，与后端 webide-core 通过 restful-api 连接；
 
 - 第二层为系统核心层为 webide-core，其中维护了函数资源池，包含有函数负载弹性自适应算法、工作区激活释放调度算法等。同时负责持久化各类系统资源，包括用户、工作区等；
+
 - 第三层为函数资源层，该层是利用阿里云函数计算（FC）服务所创建出的各个函数，由 webide-core 负责维护管理并调度给工作区使用。这些函数是基于官方 webide 函数示例改造而成的，主要作用是提供最底层的 VSCode webide 服务；
+
 - 最底层为持久化层，一方面通过 MySQL 持久化存储用户与工作区的基本信息，另一方面通过阿里云对象存储（OSS）服务所提供的 bucket 存储用户的 ide 配置、工作区代码。
 
 ### 技术细节
