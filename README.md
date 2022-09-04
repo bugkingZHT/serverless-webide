@@ -15,8 +15,9 @@
 
 我们目前提供了一个演示视频，对本项目进行了展示：
 
-**[自邮之翼-2022队WebIDE演示视频.mp4](https://www.aliyundrive.com/s/AhrdtXka6DG)**
-（您也可以在项目根目录下找到该视频）
+**[自邮之翼-2022队WebIDE演示视频.mp4 - 阿里云盘](https://www.aliyundrive.com/s/AhrdtXka6DG)**
+
+**[自邮之翼-2022队WebIDE演示视频.mp4 - 项目链接](https://code.aliyun.com/zhaoht2022/serverless-webide/blob/0e4e1ecdba24e71c970884ad6434d3e81605caf8/%E8%87%AA%E9%82%AE%E4%B9%8B%E7%BF%BC-2022%E9%98%9FWebIDE%E6%BC%94%E7%A4%BA%E8%A7%86%E9%A2%91.mp4)**
 
 同时，目前本项目已经在线上部署 demo 供各位评委体验：
 
